@@ -7,7 +7,4 @@ sudo cp resetaudio.sh /usr/local/bin/resetaudio.sh
 sudo chmod +x /usr/local/bin/resetaudio.sh
 
 # Make alias for resetaudio.sh
-echo -e "\n# Reset Audio preferences\nalias resetaudio='/usr/local/bin/resetaudio.sh'" >>~/.zshrc
-
-# Source .zshrc
-source ~/.zshrc
+echo -e "# Reset Audio preferences\nalias resetaudio='/usr/local/bin/resetaudio.sh'" >>~/.zshrc

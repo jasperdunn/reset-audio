@@ -3,9 +3,6 @@
 # Reset audio preferences on macOS as described by this Focusrite support article:
 # https://support.focusrite.com/hc/en-gb/articles/206849239-Audio-issues-on-macOS-how-to-resetaudio-Preferences
 
-# Prompt for password at the start
-sudo -v
-
 # Killing the coreaudiod process
 sudo killall coreaudiod
 
